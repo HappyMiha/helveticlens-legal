@@ -6,6 +6,7 @@ export const product = {
   noun: 'client',
   description:
     'Legal monitoring with context for every client and every decision.',
+  work: { subject: 'Client / organisation', reference: 'Matter reference', jurisdictions: 'Jurisdictions in scope', category: 'Practice area', categories: ['Corporate & commercial', 'Employment', 'Privacy & technology', 'Regulatory & compliance', 'Disputes'], heading: 'Client review desk', contextHint: 'Keep client context, advice and follow-up decisions in one matter.', reviewPrompt: 'What did you review, what does it mean for this client, and what happens next?' },
   examples: [
     {
       name: 'Client regulatory watch',
