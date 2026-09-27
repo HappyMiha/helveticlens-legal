@@ -6,6 +6,8 @@ A dedicated legal monitoring workspace based on the HelveticLens platform and th
 
 Describe a monitoring question → review AI topics → select primary sources → choose delivery → start a collaborative dossier.
 
+Read the [product guide](https://loyer.helveticlens.ch/guide) for the working loop and recovery paths, and the [1.2.0 changes](CHANGELOG.md) for this release.
+
 See [the product model](PRODUCT.md) for the research loop, intended users, coverage and pilot measures.
 
 ## What works
