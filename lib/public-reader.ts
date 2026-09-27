@@ -13,7 +13,7 @@ async function read<T>(path: string): Promise<PublicResult<T>> {
       `${CORE}/api/products/${product.id}/public-dossiers${path}`,
       {
         cache: 'no-store',
-        redirect: 'error',
+        redirect: 'manual',
         signal: AbortSignal.timeout(15000),
         headers: { accept: 'application/json' },
       },
