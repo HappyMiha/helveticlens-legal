@@ -230,6 +230,13 @@ export default function Guide() {
                 skipped reason. This checks already saved evidence; the page’s
                 acquisition schedule stays separate.
               </p>
+              <p>
+                If saved text or history cannot be loaded, use Retry this page
+                or Retry history. Retrying keeps the selected saved revision;
+                Reload current revision from start checks the latest permitted
+                capture. A failed read stays hidden until a current request
+                succeeds. Leaving the reader cancels its pending request.
+              </p>
             </section>
             <section
               id="changes-over-time"
