@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { THEME_BOOTSTRAP } from '@/lib/theme-preference';
 import './globals.css';
 import './visual-language.css';
 import { ResearchEnvironment } from '@/components/app-shell';
@@ -15,8 +16,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body><ResearchEnvironment>{children}</ResearchEnvironment></body>
+    <html lang="en" className="dark" data-theme="dark" suppressHydrationWarning>
+      <head>
+        <script
+          id="helvetic-theme"
+          dangerouslySetInnerHTML={{ __html: THEME_BOOTSTRAP }}
+        />
+      </head>
+      <body>
+        <ResearchEnvironment>{children}</ResearchEnvironment>
+      </body>
     </html>
   );
 }
