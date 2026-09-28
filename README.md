@@ -1,4 +1,4 @@
-# HelveticLens Loyer
+# HelveticLens Legal
 
 ## Search the whole saved dossier
 
@@ -11,7 +11,7 @@ The local retrieval cache supports 20,000 eligible records per dossier, with at 
 
 Choose **Follow dossier** in a private or public dossier, then open **Followed dossiers** for completed research, captured source quotes and possible contradictions. Expand the history and open the exact evidence. Your read position is personal, permission checked and shared with the dossier; marking updates seen does not approve machine findings. Following sends no email.
 
-Recurring discovery, monitoring/page-triggered research and local saved-evidence search are documented in the [product guide](https://loyer.helveticlens.ch/guide) and [release history](CHANGELOG.md). Brandbook v1.0 governs both product surfaces. The complete investigation and visual specifications remain in progress; completed slices and production evidence are recorded in the shared platform repository.
+Recurring discovery, monitoring/page-triggered research and local saved-evidence search are documented in the [product guide](https://legal.helveticlens.ch/guide) and [release history](CHANGELOG.md). Brandbook v1.0 governs both product surfaces. The complete investigation and visual specifications remain in progress; completed slices and production evidence are recorded in the shared platform repository.
 
 ## Changes over time
 
@@ -36,13 +36,13 @@ Read the [product guide](https://pharma.helveticlens.ch/guide) for the working l
 See [the product model](PRODUCT.md) for the research loop, intended users, coverage and pilot measures.
 
 
-[Production](https://loyer.helveticlens.ch) · [Apache License 2.0](LICENSE) · [Shared platform](https://github.com/HappyMiha/helvetic-lens)
+[Production](https://legal.helveticlens.ch) · [Apache License 2.0](LICENSE) · [Shared platform](https://github.com/HappyMiha/helvetic-lens)
 
 A dedicated legal monitoring workspace based on the HelveticLens platform and the September 2026 Legal Hackathon workflow.
 
 Describe a monitoring question → review AI topics → select primary sources → choose delivery → start a collaborative dossier.
 
-Read the [product guide](https://loyer.helveticlens.ch/guide) for the working loop and recovery paths, and the [1.20.0 changes](CHANGELOG.md) for this release.
+Read the [product guide](https://legal.helveticlens.ch/guide) for the working loop and recovery paths, and the [1.20.0 changes](CHANGELOG.md) for this release.
 
 See [the product model](PRODUCT.md) for the research loop, intended users, coverage and pilot measures.
 
@@ -248,7 +248,7 @@ captures skip extraction. Queries never include private notes automatically.
 
 ### Move between products
 
-The sidebar, global Ask / Search and guide connect Pharma, Loyer and the native
+The sidebar, global Ask / Search and guide connect Pharma, Legal and the native
 Monitoring platform through fixed public home addresses. The current product is
 identified without navigating away. Other destinations open in a new tab without
 an opener or referrer; queries, dossier IDs, private drafts and credentials are
@@ -262,7 +262,7 @@ page themes and human visual/language acceptance remain open.
 Version 1.23 applies the site's saved dark/light/system choice before first
 content, follows system changes in System mode and preserves the current page's
 choice if browser storage is blocked. Theme updates synchronize between tabs on
-the same origin; Pharma, Loyer and Monitoring retain separate device-local
+the same origin; Pharma, Legal and Monitoring retain separate device-local
 preferences. Appearance changes do not create research requests, change dossier
 visibility or save research text. The native platform adopts the same preference
 contract and Brandbook reading palettes; full visual/product acceptance remains
@@ -303,3 +303,24 @@ changed findings. Native Monitoring uses the same reading hierarchy and separate
 an unsaved baseline choice from the exact persisted comparison. Background
 revision changes require an explicit return to the saved choice, and a committed
 write hides the earlier result until the current saved revision is read.
+
+
+### Saved document context
+
+Version 1.27 makes document history and saved text inspectable through full
+version/revision/file/fingerprint details, distinct capture/document dates and
+actual retained counts. Original text, selected-article and synthetic provenance
+remain explicit; capture size does not prove complete source coverage. Exact
+revision paging, current-revision reload and saved AI-note excerpts are retained.
+The shared native comparison and report readers expose full source identities
+and exact encoded passage links using the same Brandbook reading hierarchy.
+
+### Legal product naming
+
+Helvetic Lens Legal is the current legal product at
+https://legal.helveticlens.ch with source at
+https://github.com/HappyMiha/helveticlens-legal. The existing legal project and
+records are retained. The old hostname and `/api/products/loyer` remain supported
+for existing links; `/api/products/legal` is canonical. Historical response
+records may retain `product: "loyer"`; this is a stable internal identity.
+Sign-in and device appearance settings remain scoped to each domain.

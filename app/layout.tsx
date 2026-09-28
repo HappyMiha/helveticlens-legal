@@ -4,13 +4,14 @@ import './globals.css';
 import './visual-language.css';
 import './source-reading.css';
 import './saved-comparisons.css';
+import './version-context.css';
 import { ResearchEnvironment } from '@/components/app-shell';
 export const metadata: Metadata = {
-  title: 'HelveticLens Loyer',
+  title: 'HelveticLens Legal',
   description:
     'Legal monitoring with primary sources, collaborative dossiers and reviewed AI guidance.',
   icons: { icon: '/favicon.svg' },
-  metadataBase: new URL('https://loyer.helveticlens.ch'),
+  metadataBase: new URL('https://legal.helveticlens.ch'),
 };
 export default function RootLayout({
   children,

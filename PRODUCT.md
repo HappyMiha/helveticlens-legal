@@ -1,4 +1,11 @@
-# HelveticLens Loyer — product model
+# HelveticLens Legal — product model
+
+Current release status and workflows are maintained in [README](README.md) and
+the production product guide. The founding product model below records the
+initial workflow and its original limits; subsequent releases add dynamic
+investigations, open-web and semantic search, roles, personal following and
+recurring monitoring. The legal product is now **Helvetic Lens Legal**.
+
 
 ## The job
 
